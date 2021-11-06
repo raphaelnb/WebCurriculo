@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currículo Raphael</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <nav id="nav">
+            <img src="imagens/perfil.jpg" alt="perfil" id="imgPerfil">
+            <h2 id="navNome">Raphael Brandão</h2>
+            <p id="navTel">61 99189-4316</p>
+            <p id="navEmail">brandão.raphael@aluno.unb.br</p>
+            <!--
+            <div class="navItem"><a href="#">Sobre Mim</a></div>
+            <div class="navItem"><a href="#">Experiência</a></div>
+            <div class="navItem"><a href="#">Contato</a></div> -->
+        </nav>
+        <div id="body">
+            <div id="sobre" class="divBody">
+                <h1 id="tituloSobre" class="tituloBody">Sobre Mim</h1>           
+                <p>
+                    Olá, tudo bem? Me chamo Raphael Nobre Brandão e sou estudante do primeiro semestre de Engenharias da FGA na Universidade de Brasília. 
+                    Acredito que inovações tecnológicas podem e devem mudar a vida das pessoas e o mundo para melhor.
+                    No momento, estou participando do processo treinee da Orc'estra Gamificação. 
+                    
+                </p>
+            </div>
+            <div>
+                <div class="divBody"> 
+                    <h1 class="tituloBody">Experiência</h1>
+                    <h2>Orc'estra Gamificação</h2><br>
+                    <h3>Trainee</h3><br>
+                    <h4>2021 - o momento</h4>
+
+                </div>
+                <div class="divBody">
+                    <h1 class="tituloBody">Formação Acadêmica</h1>
+                    <h2>Universidade de Brasília</h2><br>
+                    <h3>Engenharia de software</h3><br>
+                    <h4>2021 - o momento</h4>
+                </div>
+                <div class="divBody">
+                    <h1>Contato</h1>
+                    <div id="divCont">
+                        <div class="caixaCont" id="linkedIn">
+                            <img src="imagens/logoLinkedin.png" alt="" class="imgLogo">
+                            <h3>LinkedIn</h3>
+                        </div>
+                        <div class="caixaCont" id="gitHub">
+                            <img src="imagens/logoGithub.png" alt="" class="imgLogo">
+                            <h3>GitHub</h3>
+                        </div>
+                    </div>
+                </div>               
+                
+            </div>
+        </div>
+        <!-- js -->
+        <script type="text/javascript">
+            document.getElementById("linkedIn").onclick = function () {
+                window.open("https://www.linkedin.com/in/raphael-brandão-969281225/");
+            }
+            document.getElementById("gitHub").onclick = function () {
+                window.open("https://github.com/raphaelnb");
+            }
+        </script>
+    </body>
+
+</html>

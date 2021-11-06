@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+
+}
+
+#body {
+    margin-left: 25%;
+    background-color: cadetblue;
+    padding: 10%;
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    background-color: #143233;
+    /*align-items: center;*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 25%;
+}
+
+#navNome {
+    padding: 10% 0 5% 5%;
+    font-size: 2.7vw;
+    color: #e5e2e2;
+
+}
+
+#navTel {
+    padding: 5% 0 0 5%;
+    color: #d0caca;
+}
+
+#navEmail {
+    padding: 10% 0 0 5%;
+    font-size: 1.5vw;
+    color: #d0caca;
+}
+.navItem {
+    padding: 15%;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 2vw;  
+}
+
+/* body */
+
+#sobre {
+   margin-top: -33%;
+}
+
+.divBody {
+    padding-top: 20%;
+    height: 60%;
+}
+
+.caixaCont {
+    padding: 5em;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ccc;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.caixaCont:hover {
+    transform: translateY(-1em);
+    transition: transform .3s;
+}
+
+#divCont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20%;
+    margin: 20% 0 auto auto;
+      
+} 
+
+.tituloBody {
+    padding: 10% 0 10% 0;
+}
+
+h1 {
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.5vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+h4 {
+    font-size: 1.5vw;
+    color: #212121;
+}
+
+p {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#imgPerfil {
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: #fff 8px solid;
+}
+
+.imgLogo {
+    width: 120px;
+    height: auto;
+}
